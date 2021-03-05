@@ -1,0 +1,2 @@
+Ejemplo encadenamiento hacia atrás relacionado con el ejercicio de las plantas:
+Dadas las reglas o proposiciones descritas en el enunciado se ingresa una deficiencia, por ejemplo, de potasio; el motor tendría que hacer una búsqueda desde la hoja que indica deficiencia hasta las posibles causas... Siguiendo el ejemplo de fósforo, esta planta puede presentar una coloración púrpura, que a su vez indica tallos debilitados, este encadenamiento parte desde la enfermedad a los "posibles síntomas"

@@ -1,0 +1,19 @@
+slots:
+    concepto:
+        type: text
+intents:
+    - saludo
+    - get_info
+
+entities:
+     - concepto
+
+templates:
+    iniciar_saludo:
+        - 'Hola! Cómo estás?'
+    iniciar_consulta:
+        - 'Qué información sobre Blockchain deseas conocer?'
+actions:
+  - iniciar_saludo
+  - iniciar_consulta
+  - consultar

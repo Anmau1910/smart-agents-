@@ -1,0 +1,70 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+        {
+        	"text": "Hola", 
+        	"intent": "saludo", 
+        	"entities": []
+        },
+        {
+        	"text": "Qué tal?", 
+        	"intent": "saludo", 
+        	"entities": []
+        },
+        {
+        	"text": "Buenas tardes", 
+        	"intent": "saludo", 
+        	"entities": []
+        },
+        {
+        	"text": "Qué es Blockchain?", 
+        	"intent": "get_info", 
+        	"entities": [
+        	{
+	            "start": 6,
+	            "end": 16,
+	            "value": "",
+	            "entity": "Termino"
+          	}
+        	]
+        },
+        {
+        	"text": "Qué es Bitcoin?", 
+        	"intent": "get_info", 
+        	"entities": [{
+	            "start": 6,
+	            "end": 13,
+	            "value": "",
+	            "entity": "Termino"
+          	}
+          	]
+        },
+        {
+        	"text": "Qué significa Blockchain?", 
+        	"intent": "get_info", 
+        	"entities": [
+        	{
+	            "start": 13,
+	            "end": 23,
+	            "value": "",
+	            "entity": "Termino"
+          	}
+          ]
+        },
+        {
+        	"text": "A qué se refieren con Bitcoin?", 
+        	"intent": "get_info", 
+        	"entities": [
+        	{
+	            "start": 21,
+	            "end": 28,
+	            "value": "",
+	            "entity": "Termino"
+          	}
+          ]
+        }
+        ],
+        "regex_features" : [],
+        "entity_synonyms": []
+    }
+}
